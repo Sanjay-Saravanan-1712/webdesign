@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.bg{background-image: url(img.jpg);
+height: 750px;
+background-size:cover;}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+section {
+    min-height: 100vh;
+    padding: 50px;
+}
+
+#home {
+    
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      color: rgb(98, 96, 96);
+      text-align: left;
+}
+
+#places {
+    background-color: #333;
+      padding: 50px 0;
+      color: white;
+      text-align: center;
+}
+
+#travelers {
+    padding: 50px 20px;
+      text-align: center;
+}
+
+#contact {
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
